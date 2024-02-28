@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{background-color: rgb(207, 211, 221);
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background-color: rgb(255, 255, 255); 
+}
+.o{ background-image: url(../img/safe_shopping_1.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;}
+.overlay{position: absolute;
+    width: 100%;
+   height: 100%;
+background-color: hsla(0, 0%, 0%, 0.3);
+}
+nav{color: rgb(62, 120, 197) ;
+font-weight: bold;
+font-size: 22px;
+text-align: start;
+height: 70px;}
+nav .user_info {
+    display: flex;
+list-style: none;
+ display: none;
+}
+.links{margin-left: auto;}
+.section-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: #cfcbe083;
+    width: 40%;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid rgb(111, 132, 170);
+    font-weight: 600;
+}
+.cart{position: relative;
+margin-right: 6px;
+position: relative;}
+.view{
+    background-color: rgb(255, 254, 248);
+    font-size: 12px;
+    padding: 9px;
+    z-index: 4;
+    position: absolute;
+    top: 70px;
+    border: 1px solid rgb(131, 168, 199);
+    border-radius: 3px;
+    display: none;
+}
+.view a{background-color:rgb(183, 190, 218);
+color: rgb(32, 37, 85);
+text-decoration: none;
+padding: 3px;
+display: block;}
+ .badge{
+    background-color: rgb(255, 254, 248);
+    border-radius: 50%;
+    position: absolute;
+    top:4px;
+    right:230px;
+    font-size: 14px;
+   
+ }
+.section-form form input[type="submit"] {
+    font-size: 17px;
+    height: auto;
+    background-color:rgb(104, 177, 219) ;
+    cursor: pointer; 
+    margin-top: 10px; 
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+}
+form .fn{
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+form p{
+    color: rgb(51, 49, 49);
+}
+form p a{color: rgb(51, 64, 138);}
+/* //////////////////////////////////////////////////////////////// */
+#products{width: 80%;
+margin: auto;}
+.product-1{
+  border: 1px solid rgb(207, 211, 221);
+  padding: 10px;
+  border-radius: 8px;
+ 
+}
+.product-1:hover{ 
+    transform: scale(1,1.03);
+    border: 1px solid rgb(117, 139, 196);
+    transition: 0.5s;
+}
+.action{display: flex;
+justify-content: space-between;
+}
+.Add-to-cart{ margin-top: 10px;
+border: none;
+background-color:rgb(207, 211, 221);
+color: rgb(52, 132, 236);
+border-radius: 5px;
+padding: 7px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+/* ///////////////////////////////////////////// */
+.product{
+    width: 45%;
+    height: 210px;
+    background-color: rgb(230, 232, 252);
+    border-radius: 12px;
+    margin-top: 30px;
+    padding: 12px;
+    position: relative;
+    margin-left: 15px;
+}
+.info-product{
+    position: absolute;
+    top: 10px;
+  left: 35%;
+  font-weight: bold;
+}
+.remove-from-cart{position: absolute;
+top:74%;
+right: 10px;
+border: none;
+background-color:rgb(211, 138, 142);
+color: rgb(41, 28, 28);
+border-radius: 5px;
+padding: 4px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+btn{
+    border: none;
+    background-color: rgba(204, 204, 224, 0.171);
+    outline: none;
+}
+.btn-danger{display: none;}
+/* ////////////////////////////////////////////// */
+#favour{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin-top: 40px;
+   text-align: center;
+}
+#favourite{
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+.product-2{
+    width: 30%;
+    border: 1px solid rgb(207, 211, 221);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(228, 238, 243);
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.product-2:hover{
+    transform: scale(1,1.03);
+    border: 1px solid rgb(117, 139, 196);
+    transition: 0.5s;
+}
+
+/* ///////////////////////////////////////////////////////// */
+#search ,.select{
+    width: 45%;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid rgb(170, 170, 199);
+    border-radius: 20px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* /////////////////// */
